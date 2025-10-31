@@ -5,11 +5,6 @@
         public int Hours { get; }
         public WorkType WorkType { get; }
 
-        //public WorkEventFormedArgs(int hours,WorkType type)
-        //{
-        //    Hours = hours;
-        //    WorkType = type;
-        //}
         public WorkEventFormedArgs(int hours, WorkType type)
         {
             Hours = hours;

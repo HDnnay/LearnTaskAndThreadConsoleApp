@@ -26,7 +26,7 @@ namespace EventConsoleApp.Entity
 
         protected virtual void OnWorkCompleted()
         {
-            WorkCompletedHandler?.Invoke(this, new WorkCompletedEventArgs(this));
+            WorkCompletedHandler?.Invoke(this, new WorkCompletedEventArgs());
         }
 
         protected virtual void OnWorkPerfor(int v, WorkType type)

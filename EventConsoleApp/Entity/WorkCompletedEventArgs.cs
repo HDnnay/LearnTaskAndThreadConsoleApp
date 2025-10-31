@@ -8,11 +8,6 @@ namespace EventConsoleApp.Entity
 {
     public class WorkCompletedEventArgs:EventArgs
     {
-        public Worker Worker { get;  }
-
-        public WorkCompletedEventArgs(Worker worker)
-        {
-            Worker = worker;
-        }
+       
     }
 }
