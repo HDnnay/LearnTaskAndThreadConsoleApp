@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace SingletonApp
 {
+    /// <summary>
+    /// 静态构造函数实现单例模式
+    /// </summary>
     sealed class SingletonImpStatic
     {
         public static string ClassName;
@@ -29,5 +32,6 @@ namespace SingletonApp
             //定义了一个内部类Nested去初始化SingletonImpStatic.Instance
             ClassName = nameof(SingletonImpStatic);
         }
+        
     }
 }

@@ -25,6 +25,19 @@ using SingletonApp;
 //});
 
 
-var result = SingletonImpStatic.ClassName;
-Console.ReadKey();
 #endregion
+
+#region 静态函数实现单例模式
+//访问静态属性时会调用静态构造函数去构造静态属性初始化
+//这里调用静态属性ClassName属性时，并不会触发Instance的初始化
+//因为Instance是在内部类Nested类中定义赋值的，只有访问Instance时才会触发Nested类的初始化
+var result = SingletonImpStatic.ClassName;
+//访问Instance时才会触发Nested类的初始化，从而触发SingletonImpStatic的初始化
+var instance = SingletonImpStatic.Instance;
+
+Console.WriteLine(SingletonImpStatic.ClassName);
+#endregion
+
+
+
+Console.ReadKey();
