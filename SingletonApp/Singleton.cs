@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SingletonApp
 {
     /// <summary>
-    /// 单例是实现，非线程安全
+    /// 单例是实现，非线程安全，多线程下可能会多次调用构造函数
     /// </summary>
     sealed class Singleton
     {
