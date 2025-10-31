@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadTestConsole", "Thread
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonApp", "SingletonApp\SingletonApp.csproj", "{25F784E7-BF44-4FF8-8DCB-B63A2E6301EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternApp", "FactoryPatternApp\FactoryPatternApp.csproj", "{41F9B05D-7EE9-42B6-8779-69E984FF2F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{25F784E7-BF44-4FF8-8DCB-B63A2E6301EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F784E7-BF44-4FF8-8DCB-B63A2E6301EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F784E7-BF44-4FF8-8DCB-B63A2E6301EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41F9B05D-7EE9-42B6-8779-69E984FF2F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41F9B05D-7EE9-42B6-8779-69E984FF2F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41F9B05D-7EE9-42B6-8779-69E984FF2F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41F9B05D-7EE9-42B6-8779-69E984FF2F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
