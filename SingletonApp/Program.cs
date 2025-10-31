@@ -14,12 +14,17 @@ using SingletonApp;
 
 #region  并发场景下单例非线程安全调用例子，构造函数多次初始化
 
-ParallelEnumerable.Range(0,1000).ForAll(_ =>
-{
-    ////多线程并发访问下，可能会多次调用构造函数
-    //var reult = Singleton.Instance;
-    var result = SingletonThreadSafe.Instance;
+//ParallelEnumerable.Range(0,1000).ForAll(_ =>
+//{
+//    ////多线程并发访问下，可能会多次调用构造函数
+//    //var reult = Singleton.Instance;
+//    //var result = SingletonThreadSafe.Instance;
+//    ////Lazy实现的单例
+//    var lazyResult =  SingletonImpLazy.Instance;
 
-});
+//});
 
+
+var result = SingletonImpStatic.ClassName;
+Console.ReadKey();
 #endregion
