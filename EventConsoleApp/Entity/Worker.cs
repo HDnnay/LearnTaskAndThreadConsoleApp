@@ -10,7 +10,7 @@ namespace EventConsoleApp.Entity
     public class Worker
     {
         public event EventHandler<WorkEventFormedArgs>? WorkEventFormedHandler;
-        public event EventHandler<WorkCompletedEventArgs> WorkCompletedHandler;
+        public event EventHandler<WorkCompletedEventArgs>? WorkCompletedHandler;
 
         public void DoWork(int hours, WorkType type)
         {
