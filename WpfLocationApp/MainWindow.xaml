@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfLocationApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLocationApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!-- 元素放置在网格中 -->
+        <Button Grid.Row="0" Grid.Column="0" Content="新建" Height="36px" Width="180" HorizontalAlignment="Left" Background="Gray" Foreground="White"  Click="CreateUser" />
+        <Button Grid.Row="0" Grid.Column="2" Width="180" Height="36px" HorizontalAlignment="Right" Content="快速创建" Background="Green" Foreground="AliceBlue"  Click="QuiklyCreateUser" />
+    </Grid>
+</Window>
