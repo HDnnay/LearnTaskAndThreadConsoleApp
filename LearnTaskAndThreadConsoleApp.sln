@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventConsoleApp", "EventCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLocationApp", "WpfLocationApp\WpfLocationApp.csproj", "{D263E217-267B-4C86-830B-D67E9AA16862}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkTestApp", "BenchmarkTestApp\BenchmarkTestApp.csproj", "{A647B009-D220-428E-95D5-42DCB5B60E8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D263E217-267B-4C86-830B-D67E9AA16862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D263E217-267B-4C86-830B-D67E9AA16862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D263E217-267B-4C86-830B-D67E9AA16862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A647B009-D220-428E-95D5-42DCB5B60E8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A647B009-D220-428E-95D5-42DCB5B60E8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A647B009-D220-428E-95D5-42DCB5B60E8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A647B009-D220-428E-95D5-42DCB5B60E8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
