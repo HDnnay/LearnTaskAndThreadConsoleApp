@@ -1,0 +1,23 @@
+[
+  {
+    "type": "Salary",
+    "Amount": 3000
+  },
+  {
+    "type": "Business",
+    "Amount": 4000
+  },
+  {
+    "type": "Investment",
+    "Amount": 5000
+  },
+  {
+    "type": "Rental",
+    "Amount": 6000
+  },
+  {
+    "type": "888",
+    "Amount": 7000
+  }
+
+]
