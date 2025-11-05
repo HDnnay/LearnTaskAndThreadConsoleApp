@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkTestApp", "Benchma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumCovertToJsonApp", "EnumCovertToJsonApp\EnumCovertToJsonApp.csproj", "{897513F2-628B-4438-8DDE-CDA424BDC692}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationSdkApp", "LocationSdkApp\LocationSdkApp.csproj", "{B6A54F1B-064B-436D-92FC-8D6831DE50AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionTreeApp", "ExpressionTreeApp\ExpressionTreeApp.csproj", "{A853ED0B-8C7D-488B-9A73-C5DB3F3CD4E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{897513F2-628B-4438-8DDE-CDA424BDC692}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{897513F2-628B-4438-8DDE-CDA424BDC692}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{897513F2-628B-4438-8DDE-CDA424BDC692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A54F1B-064B-436D-92FC-8D6831DE50AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A54F1B-064B-436D-92FC-8D6831DE50AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A54F1B-064B-436D-92FC-8D6831DE50AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A54F1B-064B-436D-92FC-8D6831DE50AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A853ED0B-8C7D-488B-9A73-C5DB3F3CD4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A853ED0B-8C7D-488B-9A73-C5DB3F3CD4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A853ED0B-8C7D-488B-9A73-C5DB3F3CD4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A853ED0B-8C7D-488B-9A73-C5DB3F3CD4E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
